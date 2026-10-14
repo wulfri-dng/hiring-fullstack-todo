@@ -1,0 +1,13 @@
+{
+  "name": "@todo/shared",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Types and validation rules shared by the client and server",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  }
+}
